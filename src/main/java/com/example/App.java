@@ -1,7 +1,12 @@
 package com.example;
 
 public class App {
+    public String greet() {
+        return "Hello, World!";
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, Jenkins!");
+        App app = new App();
+        System.out.println(app.greet());
     }
 }
